@@ -1,12 +1,20 @@
+/* 폰트 불러옴: pretendard */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+
 body {
   background-color: rgb(255, 255, 255);
+  
+  /* 폰트 적용 */
+  font-family: "Pretendard", sans-serif;
 }
+
 h1,
 h2,
 h3,
 p {
   color: rgb(0, 0, 0);
 }
+
 .butt {
   background-color: #0040ff;
   color: #fff;
