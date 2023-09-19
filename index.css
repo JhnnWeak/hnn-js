@@ -24,14 +24,18 @@ p {
   font-weight: bold;
   text-decoration: none;
 }
-.flixtb {
+table,
+th,
+td {
   border-collapse: collapse;
   border: 1px solid black;
+  text-align: center;
+  padding: 10px;
 }
 tr:hover {
   background-color: #ffc5c2;
   cursor: pointer;
 }
 td {
-  padding: 15px;
+  padding: 5px;
 }
