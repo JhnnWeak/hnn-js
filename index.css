@@ -3,7 +3,7 @@
 
 body {
   background-color: rgb(255, 255, 255);
-  
+
   /* 폰트 적용 */
   font-family: "Pretendard", sans-serif;
 }
@@ -23,4 +23,15 @@ p {
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
+}
+.flixtb {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+tr:hover {
+  background-color: #ffc5c2;
+  cursor: pointer;
+}
+td {
+  padding: 15px;
 }
