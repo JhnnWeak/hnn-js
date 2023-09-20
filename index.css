@@ -24,6 +24,7 @@ p {
   font-weight: bold;
   text-decoration: none;
 }
+
 table,
 th,
 td {
@@ -32,10 +33,17 @@ td {
   text-align: center;
   padding: 10px;
 }
+
+tr {
+  /* background-color 속성에 0.2초의 transition을 설정해줌 */
+  transition: background-color 0.2s;
+}
+
 tr:hover {
   background-color: #ffc5c2;
   cursor: pointer;
 }
+
 td {
   padding: 5px;
 }
