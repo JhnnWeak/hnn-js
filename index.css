@@ -34,12 +34,12 @@ td {
   padding: 10px;
 }
 
-tr {
+td {
   /* background-color 속성에 0.2초의 transition을 설정해줌 */
   transition: background-color 0.2s;
 }
 
-tr:hover {
+td:hover {
   background-color: #ffc5c2;
   cursor: pointer;
 }
